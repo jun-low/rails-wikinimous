@@ -1,24 +1,44 @@
-# README
+# 📖Wikinimous
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Wikinimous rails app inspired from [this](https://en.wikipedia.org/wiki/Wikinomics)
 
-Things you may want to cover:
+[![Screenshot-2019-11-03-at-12-24-01.png](https://i.postimg.cc/SxTr1qqd/Screenshot-2019-11-03-at-12-24-01.png)](https://postimg.cc/dhCrDbhZ)
+
+## Spec
+
+Generate a controller, and implement all 7 CRUD default actions to
+list, show, create, update and destroy an article from the rails app.
+
+## Getting started
 
 * Ruby version
+  ```
+  ruby version 2.6.3
+  ```
+  
+* Gemfile for fake articles
+  ```ruby
+  gem install faker
+  bundle install
+  ```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
+* Generate new rails app
+  ```ruby
+  rails new <your-project-name>
+  cd <your-project-name>
+  ```
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  - Add gemfile for test
+  ```ruby
+  echo "gem 'rspec-rails', group: [ :test ]" >> Gemfile
+  echo "gem 'rails-controller-testing', group: [ :test ]" >> Gemfile
+  bundle install
+  ```
+  - Run test
+  ```ruby
+  rspec spec
+  ```
+* Run the app on http://localhost:3000/. 
+  ```ruby
+  rails s
