@@ -2,7 +2,7 @@
 
 A Wikinimous rails app inspired from [this](https://en.wikipedia.org/wiki/Wikinomics)
 
-[![Screenshot-2019-11-03-at-12-24-01.png](https://i.postimg.cc/SxTr1qqd/Screenshot-2019-11-03-at-12-24-01.png)](https://postimg.cc/dhCrDbhZ)
+[![Screenshot-2019-11-03-at-12-24-01.png](https://i.postimg.cc/4dbHMbVG/Screenshot-2019-11-03-at-12-24-01.png)](https://postimg.cc/LY5sgPxQ)
 
 ## Spec
 
